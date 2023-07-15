@@ -23,5 +23,5 @@ The tool was built using the Python language and various Python libraries. The l
     </ul>
 </ol>
 
-{: .Nota }
+{: .note }
 >If you have any questions or suggestions for improvement, please feel free to e-mail us at wanderlei_junior@ufcat.edu.br.
