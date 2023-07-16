@@ -12,7 +12,7 @@ The tool was built using the Python language and various Python libraries. The l
 <h3>Table of contents</h3>
 
 <ol>
-    <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-1.html" target="_blank">Version</a></li>
+    <li><a href="https://pypi.org/project/EASYPLOT-TOOLBOX/#history" target="_blank">Version</a></li>
     <li>Charts</li>
     <ul>
         <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-1.html" target="_blank">Histogram</a></li>
@@ -20,6 +20,7 @@ The tool was built using the Python language and various Python libraries. The l
         <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-3.html" target="_blank">Scatter</a></li>
         <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-4.html" target="_blank">Bar</a></li>
         <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-5.html" target="_blank">Pizza</a></li>
+        <li><a href="https://wmpjrufg.github.io/EASYPLOTPY/001-6.html" target="_blank">Radar</a></li>
     </ul>
 </ol>
 
