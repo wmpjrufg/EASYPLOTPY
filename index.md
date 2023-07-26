@@ -26,3 +26,12 @@ The tool was built using the Python language and various Python libraries. The l
 
 {: .note }
 >If you have any questions or suggestions for improvement, please feel free to e-mail us at wanderlei_junior@ufcat.edu.br.
+
+<h1>Quick start</h1>
+
+```python
+pip install EASYPLOT-TOOLBOX
+from EASYPLOT_TOOLBOX import *
+
+# Input data and call charts
+```
