@@ -4,9 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<p align = "justify">The Easyplotpy toolboox is an algorithm that aims to facilitate the plotting of charts for use in articles and lectures.
-<br><br>
-The tool was built using the Python language and various Python libraries. The library was developed by the GPEE research group at the Federal University of Catalão. 
+<p align = "justify">EasyplotPy is a software being developed by the research group headed by Professor Wanderlei Malaquias Pereira Junior in Faculty of Engineering at Federal University of Catalão (UFCAT). EasyplotPy algorithm provide an easy workflow to assemble graphs and save figures.the framework was developed in Python language.
 </p>
 
 {: .note }
