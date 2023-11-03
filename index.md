@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<p align = "justify">EasyplotPy is a software being developed by the research group headed by Professor Wanderlei Malaquias Pereira Junior in Faculty of Engineering at Federal University of Catalão (UFCAT). EasyplotPy algorithm provide an easy workflow to assemble graphs and save figures.the framework was developed in Python language.
+<p align = "justify">EasyplotPy is a software being developed by the research group headed by Professor Wanderlei Malaquias Pereira Junior in Faculty of Engineering at Federal University of Catalão (UFCAT). EasyplotPy algorithm provide an easy workflow to assemble charts and save figures. The framework was developed in Python language.
 </p>
 
 {: .note }
