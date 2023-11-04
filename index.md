@@ -13,6 +13,6 @@ nav_order: 1
 <h1>Quick start</h1>
 
 ```python
-pip install EASYPLOT-TOOLBOX
+pip install EASYPLOT-TOOLBOX # or pip install --upgrade EASYPLOT-TOOLBOX 
 from EASYPLOT_TOOLBOX import *
 ```
