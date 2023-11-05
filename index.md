@@ -2,6 +2,8 @@
 title: Home
 layout: home
 nav_order: 1
+has_children: true
+has_toc: true
 ---
 
 <p align = "justify">EasyplotPy is a software being developed by the research group headed by professor <a href="http://lattes.cnpq.br/2268506213083114" target = "_blank" rel = "noopener noreferrer">Wanderlei Malaquias Pereira Junior</a> in Faculty of Engineering at Federal University of Catalão (UFCAT). EasyplotPy algorithm provide an easy workflow to assemble charts and save figures. The framework was developed in Python language.
@@ -16,3 +18,7 @@ nav_order: 1
 pip install EASYPLOT-TOOLBOX # or pip install --upgrade EASYPLOT-TOOLBOX 
 from EASYPLOT_TOOLBOX import *
 ```
+
+<h1>Releases</h1>
+
+This section summarizes the changes between official stable releases of EasyplotPY.
