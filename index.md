@@ -2,6 +2,8 @@
 title: Home
 layout: home
 nav_order: 1
+has_children: true
+has_toc: true
 ---
 
 <p align = "justify">
@@ -26,13 +28,11 @@ The tool was built using the Python language and various Python libraries. The l
 </ol>
 
 {: .note }
->If you have any questions or suggestions for improvement, please feel free to e-mail us at wanderlei_junior@ufcat.edu.br.
+>If you have any questions or suggestions for improvement, please feel free to e-mail us at ```wanderlei_junior@ufcat.edu.br```.
 
 <h1>Quick start</h1>
 
 ```python
 pip install easyplot-toolbox
 from easyplot_toolbox import *
-
-# Input data and call charts
 ```
