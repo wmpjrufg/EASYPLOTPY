@@ -1,9 +1,8 @@
 ---
 layout: default
 title: histogram_chart
-grand_parent: Framework
-parent: Common Library functions
-nav_order: 4
+parent: Charts
+nav_order: 1
 has_toc: false
 ---
 
