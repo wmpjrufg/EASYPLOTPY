@@ -15,10 +15,6 @@ has_toc: true
 <h1>Quick start</h1>
 
 ```python
-pip install EASYPLOT-TOOLBOX # or pip install --upgrade EASYPLOT-TOOLBOX 
-from EASYPLOT_TOOLBOX import *
+pip install easyplot-toolbox # or pip install --upgrade easyplot-toolbox 
+from easyplot_toolbox import *
 ```
-
-<h1>Releases</h1>
-
-This section summarizes the changes between official stable releases of EasyplotPY.
