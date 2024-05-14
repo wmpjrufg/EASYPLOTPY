@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: histogram_chart
 parent: Charts
 nav_order: 1
@@ -12,8 +12,6 @@ has_toc: false
 
 <p align = "justify">
     This function shows a Boxplot and Histogram in a single chart.
-
-
 </p>
 
 ```python
