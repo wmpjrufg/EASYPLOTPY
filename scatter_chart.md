@@ -204,40 +204,40 @@ Example 1
 
 ```python
 # Data
-HEIGHT = list(np.random.normal(loc = 165, scale = 10, size = 2000))
-WEIGHT = list(np.random.gumbel(loc = 65, scale = 15, size = 2000))
-AGE = list(np.random.normal(loc = 30, scale = 3.0, size = 2000))
-DF =  pd.DataFrame({'x': HEIGHT,
-                    'y': WEIGHT,
-                    'colorbar': AGE # or 'colorbar': Use None if you wish chart without color bar and fill the colorbar argument 'CMAP COLOR' with False
+height = list(np.random.normal(loc=165, scale=10, size=2000))
+weight = list(np.random.gumbel(loc=65, scale=15, size=2000))
+age = list(np.random.normal(loc=30, scale=3.0, size=2000))
+df = pd.DataFrame({'x': height,
+                   'y': weight,
+                   'colorbar': age # or 'colorbar': Use None if you wish chart without color bar and fill the colorbar argument 'CMAP COLOR' with False
                    })
-    
-# Chart setup
-CHART_CONFIG = {
-              'NAME': 'figure1-3-1',
-              'WIDTH': 15., 
-              'HEIGHT': 7.5,
-              'MARKER SIZE': 50,
-              'CMAP COLOR': 'binary',
-              'X AXIS LABEL': 'Weight',
-              'X AXIS SIZE': 14,
-              'Y AXIS LABEL': 'Height',
-              'Y AXIS SIZE': 14,
-              'AXISES COLOR': 'red', 
-              'LABELS SIZE': 14,
-              'LABELS COLOR': 'blue',
-              'ON GRID?': False,
-              'Y LOG': False,
-              'X LOG': False,
-              'DPI': 600, 
-              'EXTENSION': 'svg',
-             }
 
-# Data statement 
-DATA = {'DATASET': DF}
+# Chart setup
+chart_config = {
+    'name': 'figure1-3-1',
+    'width': 15.,
+    'height': 7.5,
+    'marker size': 50,
+    'cmap color': 'binary',
+    'x axis label': 'Weight',
+    'x axis size': 14,
+    'y axis label': 'Height',
+    'y axis size': 14,
+    'axes color': 'red',
+    'labels size': 14,
+    'labels color': 'blue',
+    'on grid?': False,
+    'y log': False,
+    'x log': False,
+    'dots per inch': 600,
+    'extension': 'svg',
+}
+
+# Data statement
+data = {'dataset': df}
 
 # Call function
-SCATTER_CHART(DATASET = DATA, PLOT_SETUP = CHART_CONFIG)
+scatter_chart(dataset=data, plot_setup=chart_config)
 ```
 
 <center><img src="assets/images/figure1-3-1.svg" width="70%"></center>
