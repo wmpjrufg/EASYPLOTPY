@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: home
 title: scatter_chart
-grand_parent: Framework
-parent: Common Library functions
-nav_order: 6
+parent: Charts
+nav_order: 3
 has_toc: false
 ---
 
