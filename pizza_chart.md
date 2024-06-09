@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: home
 title: pizza_chart
 parent: Charts
 nav_order: 5
 has_toc: false
----
+--- -->
 
 <h3>pizza_chart</h3>
 

@@ -194,54 +194,45 @@ Output variables
 Example 1
 {: .label .label-blue }
 
-<p align = "justify">
-    <i>
-        Use the <code>scatter_chart</code> function to perform a task.
-    </i>
-</p>
-
-<p align = "justify">We use the <code>SCATTER_CHART</code> function to plot a relationships among height, weight, and age.</p>
+<p align = "justify"><i>We use the <code>scatter_chart</code> function to plot a relationships among height, weight, and age.</i></p>
 
 ```python
 # Data
-height = list(np.random.normal(loc=165, scale=10, size=2000))
-weight = list(np.random.gumbel(loc=65, scale=15, size=2000))
-age = list(np.random.normal(loc=30, scale=3.0, size=2000))
-df = pd.DataFrame({'x': height,
-                   'y': weight,
-                   'colorbar': age # or 'colorbar': Use None if you wish chart without color bar and fill the colorbar argument 'CMAP COLOR' with False
-                   })
+df = { 
+        'x0': [1, 2, 3, 4, 5, 6],
+        'y0': [1, 2, 3, 4, 5, 6],
+        'x1': [7, 8, 9, 10, 11, 12],
+        'y1': [7, 8, 9, 10, 11, 12],
+        'x2': [13, 14, 15, 16, 17, 18],
+        'y2': [13, 14, 15, 16, 17, 18],
+        'x3': [19, 20, 21, 22, 23, 24],
+        'y3': [19, 20, 21, 22, 23, 24],
+     }
 
 # Chart setup
 chart_config = {
-    'name': 'figure1-3-1',
-    'width': 15.,
-    'height': 7.5,
-    'marker size': 50,
-    'cmap color': 'binary',
-    'x axis label': 'Weight',
-    'x axis size': 14,
-    'y axis label': 'Height',
-    'y axis size': 14,
-    'axes color': 'red',
-    'labels size': 14,
-    'labels color': 'blue',
-    'on grid?': False,
-    'y log': False,
-    'x log': False,
-    'dots per inch': 600,
-    'extension': 'svg',
-}
-
-# Data statement
-data = {'dataset': df}
+                'name': 'figure1-3-1',
+                'width': 16., 
+                'height': 8.0,
+                'dots_per_inch': 600, 
+                'extension': 'svg',
+                'marker_size': 50,
+                'color_map': ['red', 'blue', 'green', 'yellow'],
+                'x_axis_label': 'Weight',
+                'x_axis_size': 14,
+                'y_axis_label': 'Height',
+                'y_axis_size': 14,
+                'axises_color': 'red', 
+                'labels_size': 14,
+                'labels_color': 'blue',
+                'on_grid': False,
+                'y_log': False,
+                'x_log': False,
+                'legend': ['data0', 'data1', 'data2', 'data3'],
+                'legend_location': 'upper left',
+                'size_legend': 12,
+               }
 
 # Call function
-scatter_chart(dataset=data, plot_setup=chart_config)
+scatter_chart(dataset=df, plot_setup=chart_config)
 ```
-
-<center><img src="assets/images/figure1-3-1.svg" width="70%"></center>
-<p align = "center"><b>Figure 1.</b> Relationships among height, weight, and age.</p>
-
-[Notebook example](https://drive.google.com/file/d/1rgeYI5gFkBCvLKVrqS4w_W9SKoq_LXW_/view?usp=sharing){: .btn .btn-outline }
-

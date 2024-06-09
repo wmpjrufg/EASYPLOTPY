@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: home
 title: bar_chart
 parent: Charts
 nav_order: 4
 has_toc: false
----
+--- -->
 
 <h3>bar_chart</h3>
 
