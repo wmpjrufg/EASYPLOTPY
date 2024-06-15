@@ -19,5 +19,6 @@ The tool was built using the Python language and various Python libraries. The l
 
 ```python
 pip install easyplot-toolbox
+# or pip install --upgrade easyplot-toolbox
 from easyplot_toolbox import *
 ```
