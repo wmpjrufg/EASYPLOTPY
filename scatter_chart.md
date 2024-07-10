@@ -236,3 +236,8 @@ chart_config = {
 # Call function
 scatter_chart(dataset=df, plot_setup=chart_config)
 ```
+
+<center>
+    <img src="assets/images/scatter1.png">
+    <p align="center"><b>Figure 1.</b> Scatter chart</p>
+</center>

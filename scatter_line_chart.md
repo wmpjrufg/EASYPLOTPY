@@ -253,3 +253,8 @@ setup = {
 # Call function
 scatter_line_chart(plot_setup=setup, dataset_line=df_li, dataset_sc=df_sc)
 ```
+
+<center>
+    <img src="assets/images/scatterline1.png">
+    <p align="center"><b>Figure 1.</b> Scatter line chart</p>
+</center>

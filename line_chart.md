@@ -263,6 +263,12 @@ chart_config = {
 line_chart(dataset=df, plot_setup=chart_config)
 ```
 
+<center>
+    <img src="assets/images/line1.svg">
+    <p align="center"><b>Figure 1.</b> Line chart</p>
+</center>
+
+
 Example 2
 {: .label .label-blue }
 
@@ -315,3 +321,8 @@ chart_config = {
 # Call function
 line_chart(dataset=df, plot_setup=chart_config)
 ```
+
+<center>
+    <img src="assets/images/line2.svg">
+    <p align="center"><b>Figure 2.</b> Line chart</p>
+</center>

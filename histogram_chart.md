@@ -171,6 +171,12 @@ chart_config = {
 histogram_chart(dataset=df, plot_setup=chart_config)
 ```
 
+<center>
+    <img src="assets/images/histogram1.png">
+    <p align="center"><b>Figure 1.</b> Histogram chart</p>
+</center>
+
+
 Example 2
 {: .label .label-blue }
 
@@ -220,3 +226,10 @@ for i in range(len(names_and_colors)):
     # Call function
     histogram_chart(dataset=data[i], plot_setup=chart_config)
 ```
+
+<center>
+    <img src="assets/images/histogram2.svg">
+    <img src="assets/images/histogram3.svg">
+    <img src="assets/images/histogram4.svg">
+    <p align="center"><b>Figure 2.</b> Histogram chart</p>
+</center>
