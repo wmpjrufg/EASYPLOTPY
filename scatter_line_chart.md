@@ -221,8 +221,8 @@ df_li = {
 # Chart setup
 setup = {
         'name': 'scatter plot',
-        'width': 10, 
-        'height': 6,
+        'width': 16, 
+        'height': 8,
         'dots_per_inch': 600, 
         'extension': 'svg',
         'marker_line': [None],
