@@ -1,10 +1,10 @@
-<!-- ---
+---
 layout: home
 title: radar_chart
 parent: Charts
 nav_order: 6
 has_toc: false
---- -->
+---
 
 <h3>radar_chart</h3>
 
