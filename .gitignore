@@ -1,0 +1,7 @@
+easyplot_toolbox/__pycache__/
+Examples/__pycache__/
+*.pyc
+dist/
+*.svg
+*.png
+*.ini
