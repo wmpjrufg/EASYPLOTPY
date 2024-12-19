@@ -2,7 +2,7 @@
 layout: home
 title: regplot_chart
 parent: Charts
-nav_order: 8
+nav_order: 13
 has_toc: false
 ---
 

@@ -2,7 +2,7 @@
 layout: home
 title: radar_chart
 parent: Charts
-nav_order: 7
+nav_order: 11
 has_toc: false
 ---
 

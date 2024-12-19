@@ -2,7 +2,7 @@
 layout: home  
 title: treemap_chart  
 parent: Charts  
-nav_order: 6
+nav_order: 8
 has_toc: false  
 ---
 

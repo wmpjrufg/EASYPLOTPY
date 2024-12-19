@@ -2,7 +2,7 @@
 layout: home
 title: join_hist_chart
 parent: Charts
-nav_order: 7
+nav_order: 9
 has_toc: false
 ---
 
