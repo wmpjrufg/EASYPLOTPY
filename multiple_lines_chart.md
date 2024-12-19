@@ -63,12 +63,10 @@ Input variables
     <tr>
         <td><code>dataset</code></td>
         <td>
-            <p align="justify">Dictionary containing the data to plot. Must include:</p>
-            <ul>
-                <li><code>dataset</code>: DataFrame with the data to be plotted</li>
-            </ul>
+            <p align="justify">Dataset to plot</p>
         </td>
-        <td>Dictionary</td>
+        <td>List or array</td>
+    </tr>
 </table>
 
 Output variables

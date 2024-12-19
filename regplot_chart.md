@@ -61,9 +61,10 @@ Input variables
     <tr>
         <td><code>dataset</code></td>
         <td>
-            <p align="justify">Dataset.</p>
+            <p align="justify">Dataset to plot</p>
         </td>
-        <td>Dictionary</td>
+        <td>List or array</td>
+    </tr>
 </table>
 
 Output variables

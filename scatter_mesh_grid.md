@@ -59,15 +59,9 @@ Input variables
     <tr>
         <td><code>dataset</code></td>
         <td>
-            <p align="justify">Dataset with the following keys:</p>
-            <ul>
-                <li><code>x</code>: x axis values</li>
-                <li><code>y</code>: y axis values</li>
-                <li><code>z</code>: z axis values</li>
-                <li><code>x_points</code>: x axis values for the scatter points</li>
-                <li><code>y_points</code>: y axis values for the scatter points</li>
+            <p align="justify">Dataset to plot</p>
         </td>
-        <td>Dictionary</td>
+        <td>List or array</td>
     </tr>
 </table>
 

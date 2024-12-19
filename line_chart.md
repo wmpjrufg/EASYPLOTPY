@@ -67,17 +67,9 @@ Input variables
         <tr>
             <td><code>dataset</code></td>
             <td>
-                <p align="justify">Dataset with the following keys:</p>
-                <ul>
-                    <li><code>x0</code>: x axis values for the first line</li>
-                    <li><code>y0</code>: y axis values for the first line</li>
-                    <li><code>x1</code>: x axis values for the second line</li>
-                    <li><code>y1</code>: y axis values for the second line</li>
-                    <li><code>xn</code>: x axis values for the n-th line</li>
-                    <li><code>yn</code>: y axis values for the n-th line</li>
-                </ul>
+                <p align="justify">Dataset to plot</p>
             </td>
-            <td>Dictionary</td>
+            <td>List or array</td>
         </tr>
     </tbody>
 </table>
