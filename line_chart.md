@@ -21,180 +21,68 @@ line_chart(**kwargs)
 Input variables
 {: .label .label-yellow }
 
-<table style = "width:100%">
+<table style="width:100%">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>plot_setup</code></td>
-        <td><p align="justify">Settings of chart (Dictionary with the following keys):</p></td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">figure width in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">figure height in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">The resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>marker</code></td>
-        <td><p align="justify">List of markers. See <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/marker_reference.html#sphx-glr-gallery-lines-bars-and-markers-marker-reference-py" target="_blank">gallery</a> (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>marker_size</code></td>
-        <td><p align="justify">List of marker sizes (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>line_width</code></td>
-        <td><p align="justify">List of line widths (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>line_style</code></td>
-        <td><p align="justify">List of line styles. See <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html" target="_blank">gallery</a> (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_label</code></td>
-        <td><p align="justify">x axis label (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_size</code></td>
-        <td><p align="justify">x axis size (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>y_axis_label</code></td>
-        <td><p align="justify">y axis label (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>y_axis_size</code></td>
-        <td><p align="justify">y axis size (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>axises_color</code></td>
-        <td><p align="justify">Axises color (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>labels_size</code></td>
-        <td><p align="justify">Labels size (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>labels_color</code></td>
-        <td><p align="justify">Labels color (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>chart_color</code></td>
-        <td><p align="justify">List of chart_colors (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>x_limit</code></td>
-        <td><p align="justify">x axis limits (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>y_limit</code></td>
-        <td><p align="justify">y axis limits (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>on_grid</code></td>
-        <td><p align="justify">Grid on or off (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>y_log</code></td>
-        <td><p align="justify">y log scale (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>x_log</code></td>
-        <td><p align="justify">x log scale (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>legend</code></td>
-        <td><p align="justify">List of legends (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>legend_location</code></td>
-        <td><p align="justify">Legend location (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>size_legend</code></td>
-        <td><p align="justify">Legend size (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>dataset</code></td>
-        <td><p align="justify">Dataset with the following</p></td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>x0</code></td>
-        <td><p align="justify">x axis values for the first line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>y0</code></td>
-        <td><p align="justify">y axis values for the first line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>x1</code></td>
-        <td><p align="justify">x axis values for the second line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>y1</code></td>
-        <td><p align="justify">y axis values for the second line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>xn</code></td>
-        <td><p align="justify">x axis values for the n-th line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>yn</code></td>
-        <td><p align="justify">y axis values for the n-th line (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>plot_setup</code></td>
+            <td>
+                <p align="justify">Settings of chart (Dictionary with the following keys):</p>
+                <ul>
+                    <li><code>name</code>: Path + name of the figure</li>
+                    <li><code>width</code>: Figure width in SI units</li>
+                    <li><code>height</code>: Figure height in SI units</li>
+                    <li><code>extension</code>: File extension</li>
+                    <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                    <li><code>marker</code>: List of markers. See <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/marker_reference.html#sphx-glr-gallery-lines-bars-and-markers-marker-reference-py" target="_blank">gallery</a></li>
+                    <li><code>marker_size</code>: List of marker sizes</li>
+                    <li><code>line_width</code>: List of line widths</li>
+                    <li><code>line_style</code>: List of line styles. See <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html" target="_blank">gallery</a></li>
+                    <li><code>x_axis_label</code>: x axis label</li>
+                    <li><code>x_axis_size</code>: x axis size</li>
+                    <li><code>y_axis_label</code>: y axis label</li>
+                    <li><code>y_axis_size</code>: y axis size</li>
+                    <li><code>axises_color</code>: Axes color</li>
+                    <li><code>labels_size</code>: Labels size</li>
+                    <li><code>labels_color</code>: Labels color</li>
+                    <li><code>chart_color</code>: Chart color</li>
+                    <li><code>x_limit</code>: x axis limits</li>
+                    <li><code>y_limit</code>: y axis limits</li>
+                    <li><code>on_grid</code>: Grid on or off</li>
+                    <li><code>y_log</code>: y log scale</li>
+                    <li><code>x_log</code>: x log scale</li>
+                    <li><code>legend</code>: List of legends</li>
+                    <li><code>legend_location</code>: Legend location</li>
+                    <li><code>size_legend</code>: Legend size</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+        <tr>
+            <td><code>dataset</code></td>
+            <td>
+                <p align="justify">Dataset with the following keys:</p>
+                <ul>
+                    <li><code>x0</code>: x axis values for the first line</li>
+                    <li><code>y0</code>: y axis values for the first line</li>
+                    <li><code>x1</code>: x axis values for the second line</li>
+                    <li><code>y1</code>: y axis values for the second line</li>
+                    <li><code>xn</code>: x axis values for the n-th line</li>
+                    <li><code>yn</code>: y axis values for the n-th line</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+    </tbody>
 </table>
+
+
 
 Output variables
 {: .label .label-yellow }

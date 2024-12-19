@@ -31,65 +31,32 @@ Input variables
     </thead>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart Dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart Dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Figure width in SI units</li>
+                <li><code>height</code>: Figure height in SI units</li>
+                <li><code>extension</code>: File extension</li>
+                <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
+                <li><code>mask</code>: Whether to use a mask for the upper triangle</li>
+                <li><code>line_widths</code>: Width of the lines between cells</li>
+                <li><code>color map</code>: Color map for the heatmap</li>
+                <li><code>line color</code>: Color of the lines between cells</li>
+                <li><code>annot</code>: Whether to annotate each cell with the correlation value</li>
+                <li><code>annot size font</code>: Font size of the annotations</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
     </tr>
     <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Figure width in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Figure height in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">The resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>mask</code></td>
-        <td><p align="justify">Whether to use a mask for the upper triangle (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>line_widths</code></td>
-        <td><p align="justify">Width of the lines between cells (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>color map</code></td>
-        <td><p align="justify">Color map for the heatmap (key required in plot_setup)</p></td>
-        <td>String or List</td>
-    </tr>
-    <tr>
-        <td><code>line color</code></td>
-        <td><p align="justify">Color of the lines between cells (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>annot</code></td>
-        <td><p align="justify">Whether to annotate each cell with the correlation value (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>annot size font</code></td>
-        <td><p align="justify">Font size of the annotations (key required in plot_setup)</p></td>
-        <td>Integer</td>
+        <td><code>dataset</code></td>
+        <td>
+        <p align="justify">Dataset.</p></td>
+        <td>Dictionary</td>
     </tr>
 </table>
+
 
 Output variables  
 {: .label .label-yellow }
