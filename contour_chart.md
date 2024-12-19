@@ -19,7 +19,7 @@ has_toc: false
 contour_chart(dataset, plot_setup)
 ```
 
-Input variables
+<h3>Input variables</h3>
 {: .label .label-yellow }
 
 <table style="width:100%">
@@ -52,12 +52,13 @@ Input variables
                 <li><code>extension</code>: File extension</li>
                 <li><code>TITLE</code>: Title for the color bar</li>
                 <li><code>LEVELS</code>: Levels for the contour plot</li>
+            </ul>
         </td>
         <td>Dictionary</td>
     </tr>
 </table>
 
-Output variables
+<h3>Output variables</h3>
 {: .label .label-yellow }
 
 <table style="width:100%">
@@ -74,6 +75,7 @@ Output variables
         <td>None</td>
     </tr>
 </table>
+
 
 Example 1
 {: .label .label-blue }
