@@ -43,18 +43,11 @@ contour_chart(dataset, plot_setup)
         <td>Dictionary</td>
     </tr>
     <tr>
-        <td><code>plot_setup</code></td>
+        <td><code>dataset</code></td>
         <td>
-            <p align="justify">Setup chart Dictionary with the following keys:</p>
-            <ul>
-                <li><code>name</code>: Path + name of the figure</li>
-                <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
-                <li><code>extension</code>: File extension</li>
-                <li><code>TITLE</code>: Title for the color bar</li>
-                <li><code>LEVELS</code>: Levels for the contour plot</li>
-            </ul>
+            <p align="justify">Dataset to plot</p>
         </td>
-        <td>Dictionary</td>
+        <td>List or array</td>
     </tr>
 </table>
 
