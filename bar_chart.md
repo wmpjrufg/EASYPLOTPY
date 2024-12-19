@@ -20,10 +20,10 @@ has_toc: false
 bar_chart(**kwargs)
 ```
 
-Input variables
+<h3>Input Variables</h3>
 {: .label .label-yellow }
 
-<table style="width:100%">
+<table style="width:100%;">
     <thead>
         <tr>
             <th>Name</th>
@@ -35,25 +35,25 @@ Input variables
         <tr>
             <td><code>plot_setup</code></td>
             <td>
-                <p align="justify">Setup chart Dictionary with the following keys:</p>
+                <p align="justify">Dictionary to configure the chart with the following keys:</p>
                 <ul>
                     <li><code>name</code>: Path + name of the figure</li>
                     <li><code>width</code>: Figure width in SI units</li>
                     <li><code>height</code>: Figure height in SI units</li>
-                    <li><code>extension</code>: File extension</li>
-                    <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
-                    <li><code>y_axis_label</code>: y axis label</li>
-                    <li><code>x_axis_label</code>: x axis label</li>
-                    <li><code>labels_size</code>: Labels size</li>
-                    <li><code>labels_color</code>: Labels color</li>
-                    <li><code>x_axis_size</code>: x axis size</li>
-                    <li><code>y_axis_size</code>: y axis size</li>
-                    <li><code>axises_color</code>: Axes color</li>
-                    <li><code>on_grid</code>: Grid on or off</li>
-                    <li><code>y_log</code>: y log scale</li>
-                    <li><code>x_log</code>: x log scale</li>
+                    <li><code>extension</code>: File extension (e.g., 'png', 'svg')</li>
+                    <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                    <li><code>y_axis_label</code>: Label for the y-axis</li>
+                    <li><code>x_axis_label</code>: Label for the x-axis</li>
+                    <li><code>labels_size</code>: Font size for labels</li>
+                    <li><code>labels_color</code>: Color of the labels</li>
+                    <li><code>x_axis_size</code>: Font size for x-axis labels</li>
+                    <li><code>y_axis_size</code>: Font size for y-axis labels</li>
+                    <li><code>axises_color</code>: Color of the axes</li>
+                    <li><code>on_grid</code>: Grid visibility (True/False)</li>
+                    <li><code>y_log</code>: Use logarithmic scale for y-axis (True/False)</li>
+                    <li><code>x_log</code>: Use logarithmic scale for x-axis (True/False)</li>
                     <li><code>colors</code>: List of colors for the bars</li>
-                    <li><code>opacity</code>: Opacity of the bars</li>
+                    <li><code>opacity</code>: Opacity level of the bars</li>
                 </ul>
             </td>
             <td>Dictionary</td>
@@ -61,30 +61,33 @@ Input variables
         <tr>
             <td><code>dataset</code></td>
             <td>
-                <p align="justify">Dataset to plot</p>
+                <p align="justify">Data to be plotted</p>
             </td>
             <td>List or array</td>
         </tr>
     </tbody>
 </table>
 
-
-Output variables
+<h3>Output Variables</h3>
 {: .label .label-yellow }
 
-<table style = "width:100%">
+<table style="width:100%;">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>None</code></td>
-        <td>The function displays the plot on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code> </td>
-        <td>None</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>None</code></td>
+            <td>
+                <p align="justify">The function displays the plot on the screen and saves it in the same folder as the <code>.ipynb</code> or <code>.py</code> file.</p>
+            </td>
+            <td>None</td>
+        </tr>
+    </tbody>
 </table>
 
 Example 1

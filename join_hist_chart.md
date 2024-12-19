@@ -19,68 +19,74 @@ has_toc: false
 join_hist_chart(**kwargs)
 ```
 
-Input variables
+<h3>Input variables</h3>
 {: .label .label-yellow }
 
 <table style="width:100%">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>dataset</code></td>
-        <td>
-            <p align="justify">Dictionary containing the data to plot. Must include:</p>
-            <ul>
-                <li><code>dataset</code>: DataFrame with the data to be plotted</li>
-            </ul>
-        </td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>plot_setup</code></td>
-        <td>
-            <p align="justify">Setup chart Dictionary with the following keys:</p>
-            <ul>
-                <li><code>name</code>: Path + name of the figure</li>
-                <li><code>width</code>: Width of the plot</li>
-                <li><code>height</code>: Height of the plot</li>
-                <li><code>x_axis_size</code>: Font size for the x-axis labels</li>
-                <li><code>X axIS color</code>: Color of the x-axis and y-axis labels</li>
-                <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
-                <li><code>extension</code>: File extension</li>
-        </td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>dataset</code></td>
-        <td>
-            <p align="justify">Dataset to plot</p>
-        </td>
-        <td>List or array</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>dataset</code></td>
+            <td>
+                <p align="justify">Dictionary containing the data to plot. Must include:</p>
+                <ul>
+                    <li><code>dataset</code>: DataFrame with the data to be plotted</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+        <tr>
+            <td><code>plot_setup</code></td>
+            <td>
+                <p align="justify">Setup chart Dictionary with the following keys:</p>
+                <ul>
+                    <li><code>name</code>: Path + name of the figure</li>
+                    <li><code>width</code>: Width of the plot</li>
+                    <li><code>height</code>: Height of the plot</li>
+                    <li><code>x_axis_size</code>: Font size for the x-axis labels</li>
+                    <li><code>x_axis_color</code>: Color of the x-axis and y-axis labels</li>
+                    <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                    <li><code>extension</code>: File extension</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+        <tr>
+            <td><code>data_list</code></td>
+            <td>
+                <p align="justify">Dataset to plot</p>
+            </td>
+            <td>List or array</td>
+        </tr>
+    </tbody>
 </table>
 
-Output variables
+<h3>Output variables</h3>
 {: .label .label-yellow }
 
 <table style="width:100%">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>None</code></td>
-        <td>The function displays the joyplot on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code></td>
-        <td>None</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>None</code></td>
+            <td>The function displays the joyplot on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code></td>
+            <td>None</td>
+        </tr>
+    </tbody>
 </table>
+
 
 Example 1
 {: .label .label-blue }

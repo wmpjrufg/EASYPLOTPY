@@ -19,56 +19,61 @@ has_toc: false
 contour_chart(dataset, plot_setup)
 ```
 
-<h3>Input variables</h3>
+<h3>Input Variables</h3>
 {: .label .label-yellow }
 
-<table style="width:100%">
+<table style="width:100%;">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>dataset</code></td>
-        <td>
-            <p align="justify">Dictionary containing the data to plot. Must include:</p>
-            <ul>
-                <li><code>X</code>: Array-like object of x-coordinates</li>
-                <li><code>Y</code>: Array-like object of y-coordinates</li>
-                <li><code>Z</code>: Array-like object of z-values</li>
-            </ul>
-        </td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>dataset</code></td>
-        <td>
-            <p align="justify">Dataset to plot</p>
-        </td>
-        <td>List or array</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>dataset_coordinates</code></td>
+            <td>
+                <p align="justify">Dictionary containing the data to plot. Must include:</p>
+                <ul>
+                    <li><code>X</code>: Array-like object of x-coordinates</li>
+                    <li><code>Y</code>: Array-like object of y-coordinates</li>
+                    <li><code>Z</code>: Array-like object of z-values</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+        <tr>
+            <td><code>dataset_values</code></td>
+            <td>
+                <p align="justify">Array or list containing the dataset values to plot</p>
+            </td>
+            <td>List or Array</td>
+        </tr>
+    </tbody>
 </table>
 
-<h3>Output variables</h3>
+<h3>Output Variables</h3>
 {: .label .label-yellow }
 
-<table style="width:100%">
+<table style="width:100%;">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>None</code></td>
-        <td>The function displays the contour plot on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code></td>
-        <td>None</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>None</code></td>
+            <td>
+                <p align="justify">The function displays the contour plot on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code> file.</p>
+            </td>
+            <td>None</td>
+        </tr>
+    </tbody>
 </table>
-
 
 Example 1
 {: .label .label-blue }

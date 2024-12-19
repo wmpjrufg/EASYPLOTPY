@@ -18,64 +18,70 @@ has_toc: false
 heatmap_chart(**kwargs)
 ```
 
-Input variables  
+<h3>Input Variables</h3>
 {: .label .label-yellow }
 
-<table style = "width:100%">
+<table style="width:100%;">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>plot_setup</code></td>
-        <td>
-            <p align="justify">Setup chart Dictionary with the following keys:</p>
-            <ul>
-                <li><code>name</code>: Path + name of the figure</li>
-                <li><code>width</code>: Figure width in SI units</li>
-                <li><code>height</code>: Figure height in SI units</li>
-                <li><code>extension</code>: File extension</li>
-                <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
-                <li><code>mask</code>: Whether to use a mask for the upper triangle</li>
-                <li><code>line_widths</code>: Width of the lines between cells</li>
-                <li><code>color map</code>: Color map for the heatmap</li>
-                <li><code>line color</code>: Color of the lines between cells</li>
-                <li><code>annot</code>: Whether to annotate each cell with the correlation value</li>
-                <li><code>annot size font</code>: Font size of the annotations</li>
-            </ul>
-        </td>
-        <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>dataset</code></td>
-        <td>
-            <p align="justify">Dataset to plot</p>
-        </td>
-        <td>List or array</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td><code>plot_setup</code></td>
+            <td>
+                <p align="justify">Dictionary for heatmap configuration, including the following keys:</p>
+                <ul>
+                    <li><code>name</code>: Path and name of the output figure file</li>
+                    <li><code>width</code>: Width of the figure (in SI units)</li>
+                    <li><code>height</code>: Height of the figure (in SI units)</li>
+                    <li><code>extension</code>: File extension for the saved figure</li>
+                    <li><code>dots_per_inch</code>: Resolution of the figure in dots per inch (DPI)</li>
+                    <li><code>mask</code>: Boolean indicating whether to mask the upper triangle of the heatmap</li>
+                    <li><code>line_widths</code>: Width of the lines between cells in the heatmap</li>
+                    <li><code>color_map</code>: Colormap to use for the heatmap</li>
+                    <li><code>line_color</code>: Color of the grid lines between cells</li>
+                    <li><code>annot</code>: Boolean indicating whether to annotate cells with correlation values</li>
+                    <li><code>annot_font_size</code>: Font size for the annotations</li>
+                </ul>
+            </td>
+            <td>Dictionary</td>
+        </tr>
+        <tr>
+            <td><code>dataset</code></td>
+            <td>
+                <p align="justify">Array-like dataset containing the values for plotting the heatmap</p>
+            </td>
+            <td>List or array</td>
+        </tr>
+    </tbody>
 </table>
 
-
-Output variables  
+<h3>Output Variables</h3>
 {: .label .label-yellow }
 
-<table style = "width:100%">
+<table style="width:100%;">
     <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Type</th>
-      </tr>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
     </thead>
-    <tr>
-        <td><code>None</code></td>
-        <td>The function displays the heatmap on the screen and saves it to the local folder of the <code>.ipynb</code> or <code>.py</code></td>
-        <td>None</td>
-    </tr>
-    </table>
+    <tbody>
+        <tr>
+            <td><code>None</code></td>
+            <td>
+                <p align="justify">The function displays the heatmap on the screen and saves it to the local folder of the script or notebook (<code>.ipynb</code> or <code>.py</code>).</p>
+            </td>
+            <td>None</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Example 1  
 {: .label .label-blue }
