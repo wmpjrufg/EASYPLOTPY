@@ -32,53 +32,28 @@ Input variables
     </thead>
     <tr>
         <td><code>dataset</code></td>
-        <td><p align="justify">Dictionary containing the data to plot. Must include:</p></td>
+        <td>
+            <p align="justify">Dictionary containing the data to plot. Must include:</p>
+            <ul>
+                <li><code>dataset</code>: DataFrame with the data to be plotted</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>dataset['dataset']</code></td>
-        <td><p align="justify">DataFrame with the data to be plotted.</p></td>
-        <td>DataFrame</td>
     </tr>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart Dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart Dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Width of the plot</li>
+                <li><code>height</code>: Height of the plot</li>
+                <li><code>x_axis_size</code>: Font size for the x-axis labels</li>
+                <li><code>X axIS color</code>: Color of the x-axis and y-axis labels</li>
+                <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                <li><code>extension</code>: File extension</li>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name of the figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Width of the plot (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Height of the plot (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_size</code></td>
-        <td><p align="justify">Font size for the x-axis labels (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>X axIS color</code></td>
-        <td><p align="justify">Color of the x-axis and y-axis labels (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">Resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>String</td>
     </tr>
 </table>
 

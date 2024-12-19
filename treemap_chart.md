@@ -31,49 +31,27 @@ Input variables
     </thead>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Figure width in SI units</li>
+                <li><code>height</code>: Figure height in SI units</li>
+                <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
+                <li><code>extension</code>: File extension</li>
+                <li><code>colors</code>: List of colors for the treemap</li>
+                <li><code>labels</code>: List of labels for the treemap</li>
+                <li><code>label size</code>: Font size of the labels</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
     </tr>
     <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name of the figure (key required in <code>plot_setup</code>)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Figure width in SI units (key required in <code>plot_setup</code>)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Figure height in SI units (key required in <code>plot_setup</code>)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">The resolution in dots per inch (key required in <code>plot_setup</code>)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in <code>plot_setup</code>)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>colors</code></td>
-        <td><p align="justify">List of colors for the treemap (key required in <code>plot_setup</code>)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>labels</code></td>
-        <td><p align="justify">List of labels for the treemap (key required in <code>plot_setup</code>)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>label size</code></td>
-        <td><p align="justify">Font size of the labels (key required in <code>plot_setup</code>)</p></td>
-        <td>Integer</td>
-    </tr>
+        <td><code>dataset</code></td>
+        <td>
+            <p align="justify">Dataset.</p>
+        </td>
+        <td>Dictionary</td>
 </table>
 
 Output variables  

@@ -32,123 +32,42 @@ Input variables
     </thead>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart Dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart Dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Figure width in SI units</li>
+                <li><code>height</code>: Figure height in SI units</li>
+                <li><code>marker_size</code>: Size of the scatter markers</li>
+                <li><code>color_map</code>: Color map for the mesh grid</li>
+                <li><code>y_axis_label</code>: Label for the y axis</li>
+                <li><code>y_axis_size</code>: Font size for the y axis label</li>
+                <li><code>x_axis_label</code>: Label for the x axis</li>
+                <li><code>x_axis_size</code>: Font size for the x axis label</li>
+                <li><code>labels_size</code>: Font size for labels</li>
+                <li><code>labels_color</code>: Color of the labels</li>
+                <li><code>axises_color</code>: Color of the axes</li>
+                <li><code>on_grid</code>: Whether to display grid lines</li>
+                <li><code>y_log</code>: Whether to use a logarithmic scale for the y axis</li>
+                <li><code>x_log</code>: Whether to use a logarithmic scale for the x axis</li>
+                <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                <li><code>extension</code>: File extension for saving the figure</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name of the figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Figure width in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Figure height in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>marker_size</code></td>
-        <td><p align="justify">Size of the scatter markers (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>color_map</code></td>
-        <td><p align="justify">Color map for the mesh grid (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>y_axis_label</code></td>
-        <td><p align="justify">Label for the y axis (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>y_axis_size</code></td>
-        <td><p align="justify">Font size for the y axis label (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_label</code></td>
-        <td><p align="justify">Label for the x axis (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_size</code></td>
-        <td><p align="justify">Font size for the x axis label (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>labels_size</code></td>
-        <td><p align="justify">Font size for labels (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>labels_color</code></td>
-        <td><p align="justify">Color of the labels (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>axises_color</code></td>
-        <td><p align="justify">Color of the axes (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>on_grid</code></td>
-        <td><p align="justify">Whether to display grid lines (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>y_log</code></td>
-        <td><p align="justify">Whether to use a logarithmic scale for the y axis (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>x_log</code></td>
-        <td><p align="justify">Whether to use a logarithmic scale for the x axis (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">Resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension for saving the figure (key required in plot_setup)</p></td>
-        <td>String</td>
     </tr>
     <tr>
         <td><code>dataset</code></td>
-        <td><p align="justify">Dataset with the following keys:</p></td>
+        <td>
+            <p align="justify">Dataset with the following keys:</p>
+            <ul>
+                <li><code>x</code>: x axis values</li>
+                <li><code>y</code>: y axis values</li>
+                <li><code>z</code>: z axis values</li>
+                <li><code>x_points</code>: x axis values for the scatter points</li>
+                <li><code>y_points</code>: y axis values for the scatter points</li>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>x</code></td>
-        <td><p align="justify">x axis values (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>y</code></td>
-        <td><p align="justify">y axis values (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>z</code></td>
-        <td><p align="justify">z axis values (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>x_points</code></td>
-        <td><p align="justify">x axis values for the scatter points (key required in dataset)</p></td>
-        <td>List or array</td>
-    </tr>
-    <tr>
-        <td><code>y_points</code></td>
-        <td><p align="justify">y axis values for the scatter points (key required in dataset)</p></td>
-        <td>List or array</td>
     </tr>
 </table>
 

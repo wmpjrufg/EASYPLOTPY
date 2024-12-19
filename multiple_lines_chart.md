@@ -31,119 +31,44 @@ Input variables
     </thead>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart Dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart Dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Figure width in SI units</li>
+                <li><code>height</code>: Figure height in SI units</li>
+                <li><code>extension</code>: File extension</li>
+                <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
+                <li><code>marker</code>: Markers for the lines</li>
+                <li><code>marker_size</code>: Size of the markers</li>
+                <li><code>line_width</code>: Width of the lines</li>
+                <li><code>line_style</code>: Line styles</li>
+                <li><code>Y0_axIS_LABEL</code>: Label for the primary y-axis</li>
+                <li><code>Y1_axIS_LABEL</code>: Label for the secondary y-axis</li>
+                <li><code>x_axis_label</code>: Label for the x-axis</li>
+                <li><code>labels_size</code>: Size of the labels</li>
+                <li><code>x_axis_size</code>: Size of the x-axis labels</li>
+                <li><code>y_axis_size</code>: Size of the y-axis labels</li>
+                <li><code>chart_color</code>: List of colors for the lines</li>
+                <li><code>on_grid</code>: Grid on or off</li>
+                <li><code>y_log</code>: y log scale</li>
+                <li><code>x_log</code>: x log scale</li>
+                <li><code>legend</code>: Legend labels</li>
+                <li><code>legend_location</code>: Location of the legend</li>
+                <li><code>size_legend</code>: Font size of the legend</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
     </tr>
     <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Figure width in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Figure height in SI units (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">The resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>marker</code></td>
-        <td><p align="justify">Markers for the lines (key required in plot_setup)</p></td>
-        <td>List of Strings</td>
-    </tr>
-    <tr>
-        <td><code>marker_size</code></td>
-        <td><p align="justify">Size of the markers (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>line_width</code></td>
-        <td><p align="justify">Width of the lines (key required in plot_setup)</p></td>
-        <td>Float</td>
-    </tr>
-    <tr>
-        <td><code>line_style</code></td>
-        <td><p align="justify">Line styles (key required in plot_setup)</p></td>
-        <td>List of Strings</td>
-    </tr>
-    <tr>
-        <td><code>Y0_axIS_LABEL</code></td>
-        <td><p align="justify">Label for the primary y-axis (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>Y1_axIS_LABEL</code></td>
-        <td><p align="justify">Label for the secondary y-axis (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_label</code></td>
-        <td><p align="justify">Label for the x-axis (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>labels_size</code></td>
-        <td><p align="justify">Size of the labels (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>x_axis_size</code></td>
-        <td><p align="justify">Size of the x-axis labels (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>y_axis_size</code></td>
-        <td><p align="justify">Size of the y-axis labels (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>chart_color</code></td>
-        <td><p align="justify">List of colors for the lines (key required in plot_setup)</p></td>
-        <td>List</td>
-    </tr>
-    <tr>
-        <td><code>on_grid</code></td>
-        <td><p align="justify">Grid on or off (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>y_log</code></td>
-        <td><p align="justify">y log scale (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>x_log</code></td>
-        <td><p align="justify">x log scale (key required in plot_setup)</p></td>
-        <td>Boolean</td>
-    </tr>
-    <tr>
-        <td><code>legend</code></td>
-        <td><p align="justify">Legend labels (key required in plot_setup)</p></td>
-        <td>List of Strings</td>
-    </tr>
-    <tr>
-        <td><code>legend_location</code></td>
-        <td><p align="justify">Location of the legend (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>size_legend</code></td>
-        <td><p align="justify">Font size of the legend (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
+        <td><code>dataset</code></td>
+        <td>
+            <p align="justify">Dictionary containing the data to plot. Must include:</p>
+            <ul>
+                <li><code>dataset</code>: DataFrame with the data to be plotted</li>
+            </ul>
+        </td>
+        <td>Dictionary</td>
 </table>
 
 Output variables

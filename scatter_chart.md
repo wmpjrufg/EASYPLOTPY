@@ -12,8 +12,6 @@ has_toc: false
 
 <p align = "justify">
     This function shows a scatter chart.
-
-
 </p>
 
 ```python
