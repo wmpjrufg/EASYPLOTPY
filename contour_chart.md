@@ -32,53 +32,28 @@ Input variables
     </thead>
     <tr>
         <td><code>dataset</code></td>
-        <td><p align="justify">Dictionary containing the data to plot. Must include:</p></td>
+        <td>
+            <p align="justify">Dictionary containing the data to plot. Must include:</p>
+            <ul>
+                <li><code>X</code>: Array-like object of x-coordinates</li>
+                <li><code>Y</code>: Array-like object of y-coordinates</li>
+                <li><code>Z</code>: Array-like object of z-values</li>
+            </ul>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>X</code></td>
-        <td><p align="justify">Array-like object of x-coordinates (key required in dataset)</p></td>
-        <td>Array-like</td>
-    </tr>
-    <tr>
-        <td><code>Y</code></td>
-        <td><p align="justify">Array-like object of y-coordinates (key required in dataset)</p></td>
-        <td>Array-like</td>
-    </tr>
-    <tr>
-        <td><code>Z</code></td>
-        <td><p align="justify">Array-like object of z-values (key required in dataset)</p></td>
-        <td>Array-like</td>
     </tr>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart Dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart Dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>dots_per_inch</code>: Resolution in dots per inch</li>
+                <li><code>extension</code>: File extension</li>
+                <li><code>TITLE</code>: Title for the color bar</li>
+                <li><code>LEVELS</code>: Levels for the contour plot</li>
+        </td>
         <td>Dictionary</td>
-    </tr>
-    <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name of the figure (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">Resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>Integer</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>TITLE</code></td>
-        <td><p align="justify">Title for the color bar (key required in plot_setup)</p></td>
-        <td>String</td>
-    </tr>
-    <tr>
-        <td><code>LEVELS</code></td>
-        <td><p align="justify">Levels for the contour plot (key required in plot_setup)</p></td>
-        <td>Array-like</td>
     </tr>
 </table>
 

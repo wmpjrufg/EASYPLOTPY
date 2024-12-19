@@ -2,7 +2,7 @@
 layout: home
 title: radar_chart
 parent: Charts
-nav_order: 6
+nav_order: 7
 has_toc: false
 ---
 
@@ -33,44 +33,25 @@ Input variables
     </thead>
     <tr>
         <td><code>plot_setup</code></td>
-        <td><p align="justify">Setup chart dictionary with the following keys:</p></td>
+        <td>
+            <p align="justify">Setup chart dictionary with the following keys:</p>
+            <ul>
+                <li><code>name</code>: Path + name of the figure</li>
+                <li><code>width</code>: Figure width in SI units</li>
+                <li><code>height</code>: Figure height in SI units</li>
+                <li><code>opacity</code>: Opacity of the radar areas</li>
+                <li><code>background</code>: Color of the polar background</li>
+                <li><code>dots_per_inch</code>: The resolution in dots per inch</li>
+                <li><code>extension</code>: File extension</li>
+            </ul>
+        </td>
         <td>dictionary</td>
     </tr>
     <tr>
-        <td><code>name</code></td>
-        <td><p align="justify">Path + name figure (key required in plot_setup)</p></td>
-        <td>string</td>
-    </tr>
-    <tr>
-        <td><code>width</code></td>
-        <td><p align="justify">Figure width in SI units (key required in plot_setup)</p></td>
-        <td>float</td>
-    </tr>
-    <tr>
-        <td><code>height</code></td>
-        <td><p align="justify">Figure height in SI units (key required in plot_setup)</p></td>
-        <td>float</td>
-    </tr>
-    <tr>
-        <td><code>opacity</code></td>
-        <td><p align="justify">Opacity of the radar areas (key required in plot_setup)</p></td>
-        <td>float</td>
-    </tr>
-    <tr>
-        <td><code>background</code></td>
-        <td><p align="justify">Color of the polar background (key required in plot_setup)</p></td>
-        <td>string</td>
-    </tr>
-    <tr>
-        <td><code>dots_per_inch</code></td>
-        <td><p align="justify">The resolution in dots per inch (key required in plot_setup)</p></td>
-        <td>integer</td>
-    </tr>
-    <tr>
-        <td><code>extension</code></td>
-        <td><p align="justify">File extension (key required in plot_setup)</p></td>
-        <td>string</td>
-    </tr>
+        <td><code>dataset</code></td>
+        <td>
+        <p align="justify">Dataset.</p></td>
+        <td>dictionary</td>
 </table>
 
 Output variables
