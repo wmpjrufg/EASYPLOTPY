@@ -32,7 +32,7 @@ contour_chart(dataset, plot_setup)
     </thead>
     <tbody>
         <tr>
-            <td><code>dataset_coordinates</code></td>
+            <td><code>plot_setup</code></td>
             <td>
                 <p align="justify">Dictionary containing the data to plot. Must include:</p>
                 <ul>
@@ -44,7 +44,7 @@ contour_chart(dataset, plot_setup)
             <td>Dictionary</td>
         </tr>
         <tr>
-            <td><code>dataset_values</code></td>
+            <td><code>dataset</code></td>
             <td>
                 <p align="justify">Array or list containing the dataset values to plot</p>
             </td>

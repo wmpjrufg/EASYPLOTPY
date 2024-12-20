@@ -58,7 +58,7 @@ join_hist_chart(**kwargs)
             <td>Dictionary</td>
         </tr>
         <tr>
-            <td><code>data_list</code></td>
+            <td><code>dataset</code></td>
             <td>
                 <p align="justify">Dataset to plot</p>
             </td>
